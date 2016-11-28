@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  testPaResultant
 //
-//  Created by vikt911 on 26.11.16.
+//  Created by vikt911 on 28.11.16.
 //  Copyright © 2016 RVS. All rights reserved.
 //
 
@@ -12,11 +12,6 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (readonly, strong) NSPersistentContainer *persistentContainer;
-
-- (void)saveContext;
-
 
 @end
 
